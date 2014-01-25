@@ -1,0 +1,75 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class="no-js", lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, inital-scale=1.0")
+    title Memory
+    link(rel="stylesheet", href="css/normalize.css")
+    link(rel="stylesheet", href="css/foundation.css")
+    link(rel="stylesheet", href="css/app.css")
+    script(src="js/vendor/modernizr.js")
+  body
+    .row
+      .small-12.columns
+        .panel
+          h1 Memory
+    .row
+      .small-3.columns.
+        &nbsp;
+      .small-3.columns
+        button.radius#play Play!
+      .small-3.columns
+        button.radius.alert#reset Reset!
+      .small-3.columns.
+        &nbsp;
+    .row
+      .small-12.columns
+        .panel#gameboard
+          table
+            thead
+              tr
+                th A
+                th B
+                th C
+                th D
+                th &nbsp;
+            tbody
+              tr
+                td
+                td
+                td
+                td
+                td 1
+              tr
+                td
+                td
+                td
+                td
+                td 2
+              tr
+                td
+                td
+                td
+                td
+                td 3
+              tr
+                td
+                td
+                td
+                td
+                td 4
+              tr
+                td
+                td
+                td
+                td
+                td 5
+
+
+
+    script(src="js/vendor/jquery.js")
+    script(src="js/vendor/foundation.js")
+    script(src="js/source/main.js")
+    script $(document).foundation();
+
